@@ -10,11 +10,13 @@ namespace Book.Ch03
     {
         static void Main1(string[] args)
         {
-            string input= Console.ReadLine();
-            int number = int.Parse(input);
+            int number = 1;
+           
+            //참과 거짓 위치에 불 자료형 사용
+            Console.WriteLine(number % 2==0? true : false);
 
-            //조건 구분
-            Console.WriteLine(number >0 ?"자연수":"자연수가 아니다");
+            //참과 거짓 위치에 문자열 자료형 사용
+            Console.WriteLine(number % 2 == 0 ? "짝수" : "홀수");
         }
     }
 }
