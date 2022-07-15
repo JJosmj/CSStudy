@@ -4,20 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch04
+namespace Exam._02
 {
-    internal class _177
+    internal class Class1
     {
         static void Main1(string[] args)
         {
-            while (true)
+            
+            for(int i = 0; i < 5; i++)
             {
-                Console.Write("숫자를 입력(짝수시 종료): ");
-                int input= int.Parse(Console.ReadLine());
-                if(input % 2 == 0)
+                for(int j = 0;j<=i;j++)
                 {
-                    break;
+                    Console.Write("☆");
                 }
+                Console.WriteLine("\n");
+            
             }
         }
     }

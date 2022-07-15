@@ -8,5 +8,11 @@ namespace Book.Ch04
 {
     internal class _184
     {
+        static void Main1(string[] args)
+        {
+            string input = " test   \n";
+            Console.WriteLine(";;"+ input.Trim()+";;");
+            Console.Read();
+        }
     }
 }
