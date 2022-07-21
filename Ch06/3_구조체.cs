@@ -30,7 +30,7 @@ namespace Ch06
     }
     internal class _3_구조체
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Point p1;
             p1.x = 1;
@@ -41,7 +41,7 @@ namespace Ch06
             Point p2 = new Point(2,3);
           
 
-            Console.WriteLine("p2 add" + p2.Add());
+            Console.WriteLine("p2 add:" + p2.Add());
         }
     }
 }
