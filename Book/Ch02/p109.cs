@@ -8,5 +8,15 @@ namespace Book.Ch02
 {
     internal class p109
     {
+        static void Main1(string[] args)
+        {
+            int intNumber = 2147483647;
+
+            long intToLong = intNumber;
+            Console.WriteLine(intToLong);
+
+            double intToDouble = intNumber;
+            Console.WriteLine(intToDouble);
+        }
     }
 }

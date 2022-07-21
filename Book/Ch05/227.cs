@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch02
+namespace Book.Ch05
 {
-    internal class p110
+    internal class _227
     {
-        static void Main1(string[] args)
+   
+
+        class Product
         {
-            string numberString = "52273";
-            
-            
+            public string name = "default";
+            public int price = 1000;
         }
     }
 }

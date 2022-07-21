@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch02
+namespace Book.Ch05
 {
-    internal class p102
+    internal class _256
     {
-        static void Main1(string[] args)
-        {
-            var number = 20;
-        }
     }
 }

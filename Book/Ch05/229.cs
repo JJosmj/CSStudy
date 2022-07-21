@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch02
+namespace Book.Ch05
 {
-    internal class _93
+    internal class _229
     {
+        class MyMath
+        {
+            public static double PI = 3.141592;
+        }
+
         static void Main1(string[] args)
         {
-            int n = 10;
-            n++;
-            Console.WriteLine(n);
-            n--;
-            Console.WriteLine(n);
+            Console.WriteLine(MyMath.PI);
         }
     }
 }

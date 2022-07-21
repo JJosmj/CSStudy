@@ -8,5 +8,11 @@ namespace Book.Ch02
 {
     internal class p101
     {
+         
+        
+        static void Main1(string[] args)
+        {
+            var local = 273;
+        }
     }
 }

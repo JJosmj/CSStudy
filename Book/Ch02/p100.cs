@@ -8,5 +8,9 @@ namespace Book.Ch02
 {
     internal class p100
     {
+        static void Main1(string[] args)
+        {
+            var number = 100;
+        }
     }
 }

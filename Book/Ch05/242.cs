@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch02
+namespace Book.Ch05
 {
-    internal class _88
+    internal class _242
     {
-        
     }
 }
