@@ -8,7 +8,7 @@ namespace Exam._02
 {
     internal class _02_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             for (int i = 0; i < 10; i++)
             {
