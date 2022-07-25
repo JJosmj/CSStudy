@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class _266
+    internal class _268
     {
         class Test
         {
-            public int Power(int x)
+            public void Print()
             {
-                return x * x;
+                Console.WriteLine("Print 메서드가 호출");
             }
         }
 
         static void Main1(string[] args)
         {
             Test test = new Test();
-            Console.WriteLine(test.Power(10));
-            Console.WriteLine(test.Power(20));
+            test.Print();
+            test.Print();
+            test.Print();
         }
     }
 }

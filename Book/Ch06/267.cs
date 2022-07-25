@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class _266
+    internal class _267
     {
         class Test
         {
-            public int Power(int x)
+            public int Multi(int x,int y)
             {
-                return x * x;
+                return x * y;
             }
         }
 
         static void Main1(string[] args)
         {
             Test test = new Test();
-            Console.WriteLine(test.Power(10));
-            Console.WriteLine(test.Power(20));
+            Console.WriteLine(test.Multi(52,273));
+            Console.WriteLine(test.Multi(103,32));
+
         }
     }
 }

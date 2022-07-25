@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Book.Ch05
 {
-    internal class _242
+    partial class _242 
     {
+        private System.ComponentModel.IContainer components = null;
     }
 }

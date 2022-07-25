@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Ch05
+namespace Book.Ch06
 {
-    
-    static class _241
+    internal class _272
     {
-        [STAThread]
-        
         static void Main1(string[] args)
         {
-           
 
         }
     }

@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace Book.Ch06
 {
-    internal class _266
+    internal class _269
     {
         class Test
         {
-            public int Power(int x)
+            public int Sum(int min,int max)
             {
-                return x * x;
+                int output = 0;
+                for(int i = min; i <= max; i++)
+                {
+                    output+=i;
+                }
+                return output;
             }
         }
 
         static void Main1(string[] args)
         {
             Test test = new Test();
-            Console.WriteLine(test.Power(10));
-            Console.WriteLine(test.Power(20));
+            Console.WriteLine(test.Sum(1,100));
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Book.Ch05
             public int grade;
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             List<Student> list = new List<Student>();
             list.Add(new Student() { name = "윤인성", grade = 1 });
